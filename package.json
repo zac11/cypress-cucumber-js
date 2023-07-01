@@ -1,0 +1,31 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zac11/cypress-cucumber-js.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "JS"
+  ],
+  "author": "RY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zac11/cypress-cucumber-js/issues"
+  },
+  "homepage": "https://github.com/zac11/cypress-cucumber-js#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "cypress": "^12.16.0"
+  },
+  "dependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  }
+}

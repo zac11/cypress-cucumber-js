@@ -1,6 +1,6 @@
 class HomePage{
     enterURL(){
-        cy.visit(`https://qaautomationlabs.com/“`);
+        cy.visit(`/“`);
 
     }
 

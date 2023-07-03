@@ -6,6 +6,15 @@
   "scripts": {
     "test": "npx cypress open"
   },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/QALabs/Tests/**/*.{js,ts}",
+      "cypress/e2e/QALabs/Tests.{js,ts}",
+      "cypress/support/step_definitions/**/*.{js,ts}"
+    ],
+    "filterSpecs": true,
+    "omitFiltered": true
+   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zac11/cypress-cucumber-js.git"
@@ -29,3 +38,4 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
   }
 }
+

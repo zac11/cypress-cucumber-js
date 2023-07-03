@@ -15,6 +15,13 @@ module.exports = defineConfig({
       await addCucumberPreprocessorPlugin(on, config);
       return config;
     },
-    specPattern : "cypress/e2e/**/*.feature"
+    specPattern : "cypress/e2e/**/*.feature",
+    baseUrl: "https://qaautomationlabs.com/",
+    defaultCommandTimeout: 20000,
+    env: {
+      omitFiltered: true,
+      filterSpecs: true
+    },
   },
+
 });

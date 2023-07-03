@@ -4,7 +4,8 @@
   "description": "Cypress with Cucumber JS",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "script": "cypress run --browser chrome",
+    "test": "npx run script"
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": [
